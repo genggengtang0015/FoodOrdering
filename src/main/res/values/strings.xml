@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">三品王点餐</string>
+    <string name="title_activity_balance">BalanceActivity</string>
+
+    <!--zxing-->
+    <string name="button_ok">OK</string>
+    <string name="msg_camera_framework_bug">对不起，您的安卓相机遇到问题，请重启设备后再试。</string>
+
+    <string name="btn_confirm_add">确认添加</string>
+
+    <!--welcome-->
+    <string name="warning">提示:因打开网络连接存在一定时间延迟，故请在网络已正常连接后再点击“确定”按钮，以保证顺利登录！</string>
+    <string name="text_wifi">WiFi</string>
+    <string name="text_mobile_data">网络</string>
+    <string name="confirm">确定</string>
+
+    <!--foodscategory-->
+</resources>

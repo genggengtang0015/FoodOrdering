@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:id="@+id/foods_item_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/tomato">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/food_img"
+            android:layout_width="20dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                android:maxLines="1"
+                android:text="肯德基豪华套餐"
+                android:textColor="@color/white"
+                android:textSize="60dp" />
+
+            <TextView
+                android:id="@+id/food_price"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:text="10.00"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_circle_shape"
+                android:text="选规格"
+                android:textSize="60dp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvMinus"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_minus"
+                android:layout_marginRight="50dp"
+                android:clickable="true"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:minWidth="60dp"
+                android:text="0"
+                android:textSize="50dp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvAdd"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_add"
+                android:clickable="true"
+                android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/tvMinus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_minus"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:minWidth="35dp"
+            android:text="0"
+            android:textSize="50dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvAdd"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_add"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <!--<RelativeLayout
+        android:layout_width="@dimen/pay_width"
+        android:layout_height="@dimen/pay_height">
+        <LinearLayout
+            android:background="@drawable/corner_border_style"
+            android:layout_marginTop="@dimen/px_15"
+            android:layout_marginRight="@dimen/px_15"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="扫描二维码进行支付"
+                android:textSize="@dimen/px_24"
+                android:background="@drawable/dash_border_style"
+                android:textColor="@color/color_black"
+                android:paddingTop="@dimen/px_50"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/head_height" />
+            <ImageView
+                android:id="@+id/iv_QRcode"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="请您在支付成功后关注"
+                android:textSize="@dimen/px_16"
+                android:textColor="@color/color_black"
+                android:layout_marginBottom="@dimen/px_20"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="“馨e品”微信公众号查看订单"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/px_16"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/gallery_dele"
+            android:id="@+id/iv_close"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/px_40"
+            android:layout_height="@dimen/px_40" />
+
+    </RelativeLayout>-->
+</RelativeLayout>
